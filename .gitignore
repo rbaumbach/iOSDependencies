@@ -15,13 +15,16 @@ profile
 *.moved-aside
 DerivedData
 .idea/
-Pods/
 ObjectiveC.gcda
 ObjectiveC.gcno
 
+# Cocoapods
+
+Pods/
+
 # Carthage
-Carthage
-InstagramSimpleOAuth.framework.zip
+
+Carthage/
 
 # Fastlane
 fastlane/report.xml
