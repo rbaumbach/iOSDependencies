@@ -24,7 +24,7 @@ Pods/
 
 # Carthage
 
-Carthage/
+Carthage/Carthage/
 
 # Fastlane
 fastlane/report.xml
