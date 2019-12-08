@@ -18,6 +18,15 @@
           "revision": "953f62c879ca0ab61bf1c3ca23bfed00a244b793",
           "version": "0.1.3"
         }
+      },
+      {
+        "package": "Utensils",
+        "repositoryURL": "https://github.com/rbaumbach/Utensils",
+        "state": {
+          "branch": null,
+          "revision": "dedc10cefbc47377047020414b31b56a3c7f7736",
+          "version": "0.0.12"
+        }
       }
     ]
   },

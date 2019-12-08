@@ -15,6 +15,7 @@
 		940F9CCE23995CB90028937B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F9CCC23995CB90028937B /* LaunchScreen.storyboard */; };
 		940F9DAC2399B3EB0028937B /* Capsule in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAB2399B3EB0028937B /* Capsule */; };
 		940F9DAF2399B42D0028937B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAE2399B42D0028937B /* Alamofire */; };
+		94A3F617239DBB4A0075235B /* Utensils in Frameworks */ = {isa = PBXBuildFile; productRef = 94A3F616239DBB4A0075235B /* Utensils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			files = (
 				940F9DAC2399B3EB0028937B /* Capsule in Frameworks */,
 				940F9DAF2399B42D0028937B /* Alamofire in Frameworks */,
+				94A3F617239DBB4A0075235B /* Utensils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,7 @@
 			packageProductDependencies = (
 				940F9DAB2399B3EB0028937B /* Capsule */,
 				940F9DAE2399B42D0028937B /* Alamofire */,
+				94A3F616239DBB4A0075235B /* Utensils */,
 			);
 			productName = SwiftPackageManager;
 			productReference = 940F9CBE23995CB90028937B /* SwiftPackageManager.app */;
@@ -121,6 +124,7 @@
 			packageReferences = (
 				940F9DAA2399B3EB0028937B /* XCRemoteSwiftPackageReference "Capsule" */,
 				940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */,
 			);
 			productRefGroup = 940F9CBF23995CB90028937B /* Products */;
 			projectDirPath = "";
@@ -369,6 +373,14 @@
 				minimumVersion = 4.9.1;
 			};
 		};
+		94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rbaumbach/Utensils";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.12;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -381,6 +393,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		94A3F616239DBB4A0075235B /* Utensils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */;
+			productName = Utensils;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
