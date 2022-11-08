@@ -361,8 +361,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rbaumbach/Capsule";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.3;
+				kind = exactVersion;
+				version = 1.2.1;
 			};
 		};
 		940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
@@ -377,8 +377,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rbaumbach/Utensils";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.12;
+				kind = exactVersion;
+				version = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
