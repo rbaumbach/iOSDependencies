@@ -3,6 +3,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 inhibit_all_warnings!
 
+target :Cocoapods do
+    pod 'Alamofire'
+    pod 'Capsule'
+    pod 'Utensils'
+    pod 'Swizzlean'
+end
+
 target :Specs do
     pod 'Quick'
     pod 'Nimble'

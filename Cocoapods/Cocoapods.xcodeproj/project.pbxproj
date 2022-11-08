@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593D5F170602C24DFDBFE853 /* libPods-Cocoapods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE1C9AB8B40221F4A6187C1 /* libPods-Cocoapods.a */; };
 		940F9C8223995C960028937B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F9C8123995C960028937B /* AppDelegate.swift */; };
 		940F9C8423995C960028937B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F9C8323995C960028937B /* SceneDelegate.swift */; };
 		940F9C8623995C960028937B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F9C8523995C960028937B /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		940F9C8B23995C970028937B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940F9C8A23995C970028937B /* Assets.xcassets */; };
 		940F9C8E23995C970028937B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F9C8C23995C970028937B /* LaunchScreen.storyboard */; };
 		940F9CDC23995DDB0028937B /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F9CDB23995DDB0028937B /* Specs.swift */; };
+		94872B1F291A20AC00D3528B /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94872B1E291A20AC00D3528B /* ObjC.m */; };
 		EA4BCFA469681BB1D6A852A7 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DDE5B41637E321AF3D236 /* libPods-Specs.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,12 @@
 		940F9CD923995DDB0028937B /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940F9CDB23995DDB0028937B /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
 		940F9CDD23995DDB0028937B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94872B1C291A20AC00D3528B /* Cocoapods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoapods-Bridging-Header.h"; sourceTree = "<group>"; };
+		94872B1D291A20AC00D3528B /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
+		94872B1E291A20AC00D3528B /* ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		A06C94FF286DBBBF62DCA15F /* Pods-Cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoapods.release.xcconfig"; path = "Target Support Files/Pods-Cocoapods/Pods-Cocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		BBE1C9AB8B40221F4A6187C1 /* libPods-Cocoapods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71A412F5B3AB19E1C4504EE /* Pods-Cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoapods.debug.xcconfig"; path = "Target Support Files/Pods-Cocoapods/Pods-Cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593D5F170602C24DFDBFE853 /* libPods-Cocoapods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +77,9 @@
 			children = (
 				4FE99D755FE0E0B3492AF547 /* Pods-Specs.debug.xcconfig */,
 				4BC2318C3FBD9C4671E74D99 /* Pods-Specs.release.xcconfig */,
+				F71A412F5B3AB19E1C4504EE /* Pods-Cocoapods.debug.xcconfig */,
+				A06C94FF286DBBBF62DCA15F /* Pods-Cocoapods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +106,7 @@
 		940F9C8023995C960028937B /* Cocoapods */ = {
 			isa = PBXGroup;
 			children = (
+				94872B20291A211E00D3528B /* ObjC */,
 				940F9C8123995C960028937B /* AppDelegate.swift */,
 				940F9C8323995C960028937B /* SceneDelegate.swift */,
 				940F9C8523995C960028937B /* ViewController.swift */,
@@ -103,6 +114,7 @@
 				940F9C8A23995C970028937B /* Assets.xcassets */,
 				940F9C8C23995C970028937B /* LaunchScreen.storyboard */,
 				940F9C8F23995C970028937B /* Info.plist */,
+				94872B1C291A20AC00D3528B /* Cocoapods-Bridging-Header.h */,
 			);
 			path = Cocoapods;
 			sourceTree = "<group>";
@@ -116,10 +128,20 @@
 			path = Specs;
 			sourceTree = "<group>";
 		};
+		94872B20291A211E00D3528B /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				94872B1D291A20AC00D3528B /* ObjC.h */,
+				94872B1E291A20AC00D3528B /* ObjC.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
 		D447ADAE623A564185976C57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				038DDE5B41637E321AF3D236 /* libPods-Specs.a */,
+				BBE1C9AB8B40221F4A6187C1 /* libPods-Cocoapods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940F9C9223995C970028937B /* Build configuration list for PBXNativeTarget "Cocoapods" */;
 			buildPhases = (
+				2F720941FDAD0EA93966A91D /* [CP] Check Pods Manifest.lock */,
 				940F9C7A23995C960028937B /* Sources */,
 				940F9C7B23995C960028937B /* Frameworks */,
 				940F9C7C23995C960028937B /* Resources */,
@@ -174,6 +197,7 @@
 				TargetAttributes = {
 					940F9C7D23995C960028937B = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1400;
 					};
 					940F9CD823995DDB0028937B = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -221,6 +245,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F720941FDAD0EA93966A91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		775D225CA83052C1B2EBA7C2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +299,7 @@
 				940F9C8623995C960028937B /* ViewController.swift in Sources */,
 				940F9C8223995C960028937B /* AppDelegate.swift in Sources */,
 				940F9C8423995C960028937B /* SceneDelegate.swift in Sources */,
+				94872B1F291A20AC00D3528B /* ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +457,10 @@
 		};
 		940F9C9323995C970028937B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71A412F5B3AB19E1C4504EE /* Pods-Cocoapods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cocoapods/Info.plist;
@@ -422,6 +471,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = teamthick.Cocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cocoapods/Cocoapods-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,8 +480,10 @@
 		};
 		940F9C9423995C970028937B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06C94FF286DBBBF62DCA15F /* Pods-Cocoapods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cocoapods/Info.plist;
@@ -441,6 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = teamthick.Cocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cocoapods/Cocoapods-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
