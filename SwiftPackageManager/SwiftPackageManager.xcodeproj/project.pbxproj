@@ -16,6 +16,7 @@
 		940F9DAC2399B3EB0028937B /* Capsule in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAB2399B3EB0028937B /* Capsule */; };
 		940F9DAF2399B42D0028937B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAE2399B42D0028937B /* Alamofire */; };
 		94A3F617239DBB4A0075235B /* Utensils in Frameworks */ = {isa = PBXBuildFile; productRef = 94A3F616239DBB4A0075235B /* Utensils */; };
+		94F1DE5B291BF7D200411CCB /* Swizzlean in Frameworks */ = {isa = PBXBuildFile; productRef = 94F1DE5A291BF7D200411CCB /* Swizzlean */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F1DE5B291BF7D200411CCB /* Swizzlean in Frameworks */,
 				940F9DAC2399B3EB0028937B /* Capsule in Frameworks */,
 				940F9DAF2399B42D0028937B /* Alamofire in Frameworks */,
 				94A3F617239DBB4A0075235B /* Utensils in Frameworks */,
@@ -93,6 +95,7 @@
 				940F9DAB2399B3EB0028937B /* Capsule */,
 				940F9DAE2399B42D0028937B /* Alamofire */,
 				94A3F616239DBB4A0075235B /* Utensils */,
+				94F1DE5A291BF7D200411CCB /* Swizzlean */,
 			);
 			productName = SwiftPackageManager;
 			productReference = 940F9CBE23995CB90028937B /* SwiftPackageManager.app */;
@@ -125,6 +128,7 @@
 				940F9DAA2399B3EB0028937B /* XCRemoteSwiftPackageReference "Capsule" */,
 				940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */,
 				94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */,
+				94F1DE59291BF7D200411CCB /* XCRemoteSwiftPackageReference "Swizzlean" */,
 			);
 			productRefGroup = 940F9CBF23995CB90028937B /* Products */;
 			projectDirPath = "";
@@ -381,6 +385,14 @@
 				version = 0.1.0;
 			};
 		};
+		94F1DE59291BF7D200411CCB /* XCRemoteSwiftPackageReference "Swizzlean" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rbaumbach/Swizzlean";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -398,6 +410,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */;
 			productName = Utensils;
+		};
+		94F1DE5A291BF7D200411CCB /* Swizzlean */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94F1DE59291BF7D200411CCB /* XCRemoteSwiftPackageReference "Swizzlean" */;
+			productName = Swizzlean;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

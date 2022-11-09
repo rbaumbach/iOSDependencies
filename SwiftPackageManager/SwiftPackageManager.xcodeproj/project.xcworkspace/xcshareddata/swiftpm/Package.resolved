@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "swizzlean",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rbaumbach/Swizzlean",
+      "state" : {
+        "revision" : "1b230dafe39ddf8fc24294307e69d2b92cc39cf0",
+        "version" : "1.1.0"
+      }
+    },
+    {
       "identity" : "utensils",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rbaumbach/Utensils",
