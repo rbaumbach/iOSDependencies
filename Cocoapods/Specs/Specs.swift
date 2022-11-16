@@ -1,10 +1,3 @@
-//
-//  Specs.swift
-//  Specs
-//
-//  Created by Ryan on 12/5/19.
-//
-
 import XCTest
 
 class Specs: XCTestCase {

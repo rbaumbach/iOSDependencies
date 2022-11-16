@@ -1,7 +1,7 @@
 PODS:
   - Alamofire (5.6.2)
   - Capsule (0.2.4)
-  - Nimble (8.0.4)
+  - Moocher (0.0.1)
   - Quick (2.2.0)
   - Swizzlean (1.1.0)
   - Utensils (0.0.14):
@@ -10,7 +10,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Capsule
-  - Nimble
+  - Moocher
   - Quick
   - Swizzlean
   - Utensils
@@ -19,7 +19,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Capsule
-    - Nimble
+    - Moocher
     - Quick
     - Swizzlean
     - Utensils
@@ -27,11 +27,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   Capsule: 7b60e70570623903bc91ea28b9440df72471a1b6
-  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  Moocher: 5e654e027b0caa55d21bc2a52925fd82495d1e62
   Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
   Swizzlean: 6ffb4b1a0f59b2a1d710eb9e8d81bc56354e1dfa
   Utensils: 95aa34c520500267492f80f7c8f50cbd5e5dad04
 
-PODFILE CHECKSUM: 7f5159b48fb02d3d100967c875ae5da429c51cf0
+PODFILE CHECKSUM: c72ca42f05d9fc2dd9b1efeaad333d88ab2ebef9
 
 COCOAPODS: 1.11.3

@@ -12,5 +12,5 @@ end
 
 target :Specs do
     pod 'Quick'
-    pod 'Nimble'
+    pod 'Moocher'
 end

@@ -16,6 +16,7 @@
 		940F9C8E23995C970028937B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F9C8C23995C970028937B /* LaunchScreen.storyboard */; };
 		940F9CDC23995DDB0028937B /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F9CDB23995DDB0028937B /* Specs.swift */; };
 		94872B1F291A20AC00D3528B /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94872B1E291A20AC00D3528B /* ObjC.m */; };
+		94911301292584AC00B60941 /* QuickNMoocher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94911300292584AC00B60941 /* QuickNMoocher.swift */; };
 		EA4BCFA469681BB1D6A852A7 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038DDE5B41637E321AF3D236 /* libPods-Specs.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		94872B1C291A20AC00D3528B /* Cocoapods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocoapods-Bridging-Header.h"; sourceTree = "<group>"; };
 		94872B1D291A20AC00D3528B /* ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
 		94872B1E291A20AC00D3528B /* ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		94911300292584AC00B60941 /* QuickNMoocher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNMoocher.swift; sourceTree = "<group>"; };
 		A06C94FF286DBBBF62DCA15F /* Pods-Cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoapods.release.xcconfig"; path = "Target Support Files/Pods-Cocoapods/Pods-Cocoapods.release.xcconfig"; sourceTree = "<group>"; };
 		BBE1C9AB8B40221F4A6187C1 /* libPods-Cocoapods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71A412F5B3AB19E1C4504EE /* Pods-Cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cocoapods.debug.xcconfig"; path = "Target Support Files/Pods-Cocoapods/Pods-Cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,8 +124,9 @@
 		940F9CDA23995DDB0028937B /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				940F9CDB23995DDB0028937B /* Specs.swift */,
 				940F9CDD23995DDB0028937B /* Info.plist */,
+				940F9CDB23995DDB0028937B /* Specs.swift */,
+				94911300292584AC00B60941 /* QuickNMoocher.swift */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94911301292584AC00B60941 /* QuickNMoocher.swift in Sources */,
 				940F9CDC23995DDB0028937B /* Specs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
