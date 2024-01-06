@@ -7,6 +7,7 @@ target :Cocoapods do
     pod 'Alamofire'
     pod 'Capsule'
     pod 'Utensils'
+    pod 'Utensils+Extensions', :path => '~/Documents/Development/Utensils-Extensions'
     pod 'Swizzlean'
 end
 

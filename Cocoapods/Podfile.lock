@@ -1,11 +1,16 @@
 PODS:
-  - Alamofire (5.6.2)
-  - Capsule (0.2.4)
-  - Moocher (0.0.1)
-  - Quick (2.2.0)
+  - Alamofire (5.8.1)
+  - Capsule (1.4.0)
+  - Moocher (0.4.0):
+    - Moocher/Core (= 0.4.0)
+  - Moocher/Core (0.4.0)
+  - Quick (7.3.0)
   - Swizzlean (1.1.0)
-  - Utensils (0.0.14):
-    - Capsule (~> 0.2.0)
+  - Utensils (0.3.2):
+    - Capsule (~> 1.4.0)
+  - "Utensils+Extensions (0.0.2)":
+    - Capsule (~> 1.4.0)
+    - Utensils (~> 0.3.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -14,6 +19,7 @@ DEPENDENCIES:
   - Quick
   - Swizzlean
   - Utensils
+  - "Utensils+Extensions (from `~/Documents/Development/Utensils-Extensions`)"
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -24,14 +30,19 @@ SPEC REPOS:
     - Swizzlean
     - Utensils
 
+EXTERNAL SOURCES:
+  "Utensils+Extensions":
+    :path: "~/Documents/Development/Utensils-Extensions"
+
 SPEC CHECKSUMS:
-  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  Capsule: 7b60e70570623903bc91ea28b9440df72471a1b6
-  Moocher: 5e654e027b0caa55d21bc2a52925fd82495d1e62
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Capsule: 51717c6fb9beac5c66f9cd824a0d8083ec45b52c
+  Moocher: 4c5f38df3caf6d4664e525a7e119584ad6614680
+  Quick: d32871931c05547cb4e0bc9009d66a18b50d8558
   Swizzlean: 6ffb4b1a0f59b2a1d710eb9e8d81bc56354e1dfa
-  Utensils: 95aa34c520500267492f80f7c8f50cbd5e5dad04
+  Utensils: 3e11a14de852355681b78cf87b40174255e87dd5
+  "Utensils+Extensions": 628a82cbe6eaa44f467f399e6582c35ff52d4b41
 
-PODFILE CHECKSUM: c72ca42f05d9fc2dd9b1efeaad333d88ab2ebef9
+PODFILE CHECKSUM: 0140acb45dd7f29714ec72ffc7be547ceebd5df5
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.3

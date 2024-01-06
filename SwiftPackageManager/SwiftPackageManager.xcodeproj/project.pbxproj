@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		940F9DAC2399B3EB0028937B /* Capsule in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAB2399B3EB0028937B /* Capsule */; };
 		940F9DAF2399B42D0028937B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 940F9DAE2399B42D0028937B /* Alamofire */; };
 		94A3F617239DBB4A0075235B /* Utensils in Frameworks */ = {isa = PBXBuildFile; productRef = 94A3F616239DBB4A0075235B /* Utensils */; };
+		94C2CECA2B49E8F100639DA9 /* Utensils+Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 94C2CEC92B49E8F100639DA9 /* Utensils+Extensions */; };
 		94F1DE5B291BF7D200411CCB /* Swizzlean in Frameworks */ = {isa = PBXBuildFile; productRef = 94F1DE5A291BF7D200411CCB /* Swizzlean */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F1DE5B291BF7D200411CCB /* Swizzlean in Frameworks */,
+				94C2CECA2B49E8F100639DA9 /* Utensils+Extensions in Frameworks */,
 				940F9DAC2399B3EB0028937B /* Capsule in Frameworks */,
 				940F9DAF2399B42D0028937B /* Alamofire in Frameworks */,
 				94A3F617239DBB4A0075235B /* Utensils in Frameworks */,
@@ -96,6 +98,7 @@
 				940F9DAE2399B42D0028937B /* Alamofire */,
 				94A3F616239DBB4A0075235B /* Utensils */,
 				94F1DE5A291BF7D200411CCB /* Swizzlean */,
+				94C2CEC92B49E8F100639DA9 /* Utensils+Extensions */,
 			);
 			productName = SwiftPackageManager;
 			productReference = 940F9CBE23995CB90028937B /* SwiftPackageManager.app */;
@@ -108,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					940F9CBD23995CB90028937B = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -129,6 +132,7 @@
 				940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */,
 				94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */,
 				94F1DE59291BF7D200411CCB /* XCRemoteSwiftPackageReference "Swizzlean" */,
+				94C2CEC82B49E8F100639DA9 /* XCRemoteSwiftPackageReference "Utensils-Extensions" */,
 			);
 			productRefGroup = 940F9CBF23995CB90028937B /* Products */;
 			projectDirPath = "";
@@ -189,6 +193,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -211,6 +216,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -249,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -271,6 +278,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +374,7 @@
 			repositoryURL = "https://github.com/rbaumbach/Capsule";
 			requirement = {
 				kind = exactVersion;
-				version = 1.2.1;
+				version = 1.4.0;
 			};
 		};
 		940F9DAD2399B42D0028937B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
@@ -382,7 +390,15 @@
 			repositoryURL = "https://github.com/rbaumbach/Utensils";
 			requirement = {
 				kind = exactVersion;
-				version = 0.1.0;
+				version = 0.3.2;
+			};
+		};
+		94C2CEC82B49E8F100639DA9 /* XCRemoteSwiftPackageReference "Utensils-Extensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rbaumbach/Utensils-Extensions";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.3;
 			};
 		};
 		94F1DE59291BF7D200411CCB /* XCRemoteSwiftPackageReference "Swizzlean" */ = {
@@ -410,6 +426,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 94A3F615239DBB4A0075235B /* XCRemoteSwiftPackageReference "Utensils" */;
 			productName = Utensils;
+		};
+		94C2CEC92B49E8F100639DA9 /* Utensils+Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94C2CEC82B49E8F100639DA9 /* XCRemoteSwiftPackageReference "Utensils-Extensions" */;
+			productName = "Utensils+Extensions";
 		};
 		94F1DE5A291BF7D200411CCB /* Swizzlean */ = {
 			isa = XCSwiftPackageProductDependency;

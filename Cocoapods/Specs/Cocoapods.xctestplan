@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "164B1E08-BBC4-4270-B706-7CC3723E1A7C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "ASpec"
+      ],
+      "target" : {
+        "containerPath" : "container:Cocoapods.xcodeproj",
+        "identifier" : "940F9CD823995DDB0028937B",
+        "name" : "Specs"
+      }
+    }
+  ],
+  "version" : 1
+}

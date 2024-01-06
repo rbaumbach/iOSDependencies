@@ -1,16 +1,21 @@
 import UIKit
 
 import Alamofire
-
 import Capsule
 import Utensils
+import UtensilsExtensions
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, 
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-//        _ = Swizzlean(classToSwizzle: NSString.self)
+        doSomething()
         
         return true
+    }
+    
+    func doSomething() {
+        let networker = PequenoNetworking()
     }
 }

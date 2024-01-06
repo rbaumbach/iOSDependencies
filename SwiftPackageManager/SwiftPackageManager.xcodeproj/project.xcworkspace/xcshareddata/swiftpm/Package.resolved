@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rbaumbach/Capsule",
       "state" : {
-        "revision" : "5065f4e8540eb8df639b32084c9dc74c1b62b4b4",
-        "version" : "1.2.1"
+        "revision" : "2aa64d7dba3727334604e25f780ca4b20a2d4f8c",
+        "version" : "1.4.0"
       }
     },
     {
@@ -32,8 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rbaumbach/Utensils",
       "state" : {
-        "revision" : "2a88c595f5dfab5b443d9c3e65105dd686b0d6cb",
-        "version" : "0.1.0"
+        "revision" : "2a54743ad99b8f1acaa3dca824670b3bf0065424",
+        "version" : "0.3.2"
+      }
+    },
+    {
+      "identity" : "utensils-extensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rbaumbach/Utensils-Extensions",
+      "state" : {
+        "revision" : "18cf79d08aa37fbe0ccad564bc70b8071a6862aa",
+        "version" : "0.0.3"
       }
     }
   ],
